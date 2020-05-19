@@ -1,5 +1,126 @@
+/*Body */
+
+/*Nav */
+
+/*Contact */
 .display-4
 {
     font-size: 30px;
     font-weight: 350;
 }
+
+
+/*Index Specific -----------------------------------------------------------*/
+
+.index-con
+{
+    width:80%
+}
+
+/*Main Image */
+#Welcome-Image
+{
+    width:100%;
+    height:80vh;
+    background: url("images/placeholders/Placeholder_mainImage_01.jpg")center center;
+    
+}
+
+/*Title Section */
+.title-section
+{
+    height:40vh;
+}
+
+.title-box
+{
+    padding-top: 4%;
+}
+
+/*Map Graphic and Features */
+
+    /*Map Graphic */
+
+    /*Features */
+.features
+{
+    background: url("images/placeholders/Placeholder_mainImage_01.jpg")center center;
+    height:70vh;
+}
+
+.features-box
+{
+    color:#fafafa;
+    font-size: 20px;
+    margin-top:10%;
+    margin-left:5%;
+    margin-right:20%;
+}
+
+.feature-heading
+{
+    font-size: 25px;
+    padding-bottom: 4px;
+    border-bottom: solid 4px;
+    margin-right: 250px
+}
+
+.feature-text
+{
+    margin-bottom: 5%;
+}
+
+
+
+
+/*Trek links */
+
+.trek-links
+{
+    padding-top:8vh;
+    padding-bottom: 8vh;
+    background: grey;
+}
+
+.btn-trek-link
+{
+    margin-top:20%;
+    margin-bottom: 20%;
+    border:solid;
+    height:450px;
+    width:350px;
+}
+
+.grow
+{
+    transition: all .2s ease-in-out;
+}
+
+.grow:hover
+{
+    transform: scale(1.1);
+}
+/*Testimonial */
+
+
+
+/*Trek Specific -----------------------------------------------------------*/
+
+/*Trek Links */
+
+/*Castle Trek */
+
+/*Forest Trek */
+
+/*River & Loch Trek */
+
+
+
+/*Book Specific -----------------------------------------------------------*/
+
+/*Trek Buttons */
+
+/*Form */
+
+/*Book page Contacts */
+

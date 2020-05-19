@@ -5,6 +5,8 @@
         <title>Highland Treks: Home Page</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/032668445d.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="assets/style.css">
     </head>
     
     <body>
@@ -12,7 +14,7 @@
         <div class="navbar navbar-expand-sm navbar-light bg-light">
             <nav class="container-fluid">
                 <div class="navbar-brand">
-                    Logo
+                   <a href="index.html">Logo</a>               
                 </div>
                    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
                        <span class="navbar-toggler-icon"></span>
@@ -33,85 +35,101 @@
             </nav>
         </div>
         
-        <div class="container">
+        
            <!--Main Image-->
             <section>
-                <div>
-                    Main Image
+                <div id="Welcome-Image">  
                 </div>
             </section>
-
+            <div class="container-fluid index-con">
             <!--Title and Sub-->
-            <section>
-                <div>
-                    <h1 class="text-center">Highland Treks</h1>
-                </div>
-                <div>
-                    <h3 class="lead font-weight-bold text-center">Welcome to Highland Treks a source for tourist destinations and tours through the wonderful Scottish highlands</h3>
+            <section class="title-section">
+               <div class="title-box">
+                    <div>
+                        <h1 class="text-center">Highland Treks</h1>
+                    </div>
+                    <div>
+                        <h3 class="lead font-weight-bold text-center mt-5">Welcome to Highland Treks a source for tourist destinations and tours through the wonderful Scottish highlands</h3>
+                    </div>
                 </div>
             </section>
+            </div>
 
             <!--Features-->
-            <section>
-               <div class="row">
-                    <div class="col">
-                        Map graphic.
+            <section class="features">
+              <div class="container-fluid index-con">
+                   <div class="row">
+                        <div class="col">
+                            Map graphic.
+                        </div>
+
+                        <div class="col">
+                           <div class="features-box">
+                                <div>
+                                    <div class="h6 feature-heading">
+                                       <i class="fas fa-mountain"></i>
+                                        Visit Iconic Locations
+                                    </div>
+                                    <div class="text-justify feature-text">From the Spey Valley, to the vast Loch Ness, and even the stunning Eilen Donan Castle.  Have fun exploring all the highlands have to show.</div>
+                                </div>
+                                <div>
+                                    <div class="h6 feature-heading">
+                                       <i class="fas fa-hiking"></i>
+                                        Guided Treks
+                                    </div>
+                                    <div class="text-justify feature-text">Book 1 of 3 treks through the highlands.  Each trek follows a specific type of tourist location typical of the Scottish Highlands.  You'll be accompanied by one of our professional guides that will be able to answer all questions and tell you all the history of the locations.</div>
+                                </div>
+                                <div>
+                                    <div class="h6 feature-heading">
+                                       <i class="fas fa-table"></i>
+                                        Easy Booking
+                                    </div>
+                                    <div class="text-justify feature-text">Easily book treks using our steamlined website.  Quickly choose dates that suit you best.</div>
+                                </div>
+                            </div> 
+                        </div>                
                     </div>
-                    
-                    <div class="col">
-                        <div>
-                            <div class="h6">Visit Iconic Locations</div>
-                            <div class="text-justify">From the Spey Valley, to the vast Loch Ness, and even the stunning Eilen Donan Castle.  Have fun exploring all the highlands have to show.</div>
-                        </div>
-                        <div>
-                            <div class="h6">Guided Treks</div>
-                            <div class="text-justify">Book 1 of 3 treks through the highlands.  Each trek follows a specific type of tourist location typical of the Scottish Highlands.  You'll be accompanied by one of our professional guides that will be able to answer all questions and tell you all the history of the locations.</div>
-                        </div>
-                        <div>
-                            <div class="h6">Easy Booking</div>
-                            <div class="text-justify">Easily book treks using our steamlined website.  Quickly choose dates that suit you best.</div>
-                        </div>
-                    </div>
-                    
                 </div>
             </section>
 
             <!--Trek-->
-            <section>
-                <div>
-                   <div class="row">
-                        <div class="col-md col-sm-12 text-center">
-                           <a href="Treks.html">
-                               <button class="btn">
-                                   <p class="font-weight-bold">Castle Trek</p>
-                               </button>
-                           </a> 
-                        </div>
+            <section class="container-fluid trek-links trek-links">
+                    <div class="container-fluid index-con">
+                           <div class="row">
+                                <div class="col-md col-sm-12 text-center">
+                                  <div>
+                                       <a href="Treks.html">
+                                           <button class="btn btn-trek-link grow">
+                                               <p class="font-weight-bold">Castle Trek</p>
+                                           </button>
+                                       </a> 
+                                   </div>
+                                </div>
 
-                        <div class="col-md col-sm-12 text-center">
-                            <a href="Treks.html">
-                               <button class="btn">
-                                   <p class="font-weight-bold">Forest Trek</p>
-                               </button>
-                           </a> 
-                        </div>
+                                <div class="col-md col-sm-12 text-center">
+                                    <a href="Treks.html">
+                                       <button class="btn btn-trek-link grow">
+                                           <p class="font-weight-bold">Forest Trek</p>
+                                       </button>
+                                   </a> 
+                                </div>
 
-                        <div class="col-md col-sm-12 text-center">
-                            <a href="Treks.html">
-                               <button class="btn">
-                                   <p class="font-weight-bold">River & Loch Trek</p>
-                               </button>
-                           </a> 
-                        </div>
-                    </div>
-                </div>
+                                <div class="col-md col-sm-12 text-center">
+                                    <a href="Treks.html">
+                                       <button class="btn btn-trek-link grow">
+                                           <p class="font-weight-bold">River & Loch Trek</p>
+                                       </button>
+                                   </a> 
+                                </div>
+                            </div>
+                        </div> 
             </section>
 
             <!--Testimonial-->
-            <section>
+            <section class="container-fluid index-con">
               <div class="blockquote">
                    <div class="row">
-                        <div class = "col">
+                        <div class = "col-md col-sm-12">
                             <div class="font-italic">
                                 Never been to Scotland before and after taking one of the treks I never wanted to leave.  Cant wait to come back and take advantage of yet another trek.
                             </div>
@@ -120,7 +138,7 @@
                             </div>
                         </div>
 
-                        <div class = "col">
+                        <div class = "col-md col-sm-12">
                             <div class="font-italic">
                                 The History and Beauty of the Highlands was not exaggerated.  Thank you Highland Treks for a wonderful holiday.
                             </div>
@@ -138,73 +156,79 @@
                     </div>
                 </div>
             </section>
-        </div>
         
-        <!--Contacts-->
-        <section>
-            <div>Contacts</div>
-            <div>
-                <div>
-                    <div>Email</div>
+        
+    <!--Contacts------------------------------------------->
+        <section class="container">
+            <div class="lead mb-4">Contacts</div>
+            
+            <div class="row">           
+            
+                <div class="col-sm-12 col-md lead mb-4">
                     <div>
-                        <ul>
-                            <li>
-                                Email01
-                            </li>
-                            <li>
-                                Email02
-                            </li>
+                        <div>Email</div>
+                        <div>
+                            <ul class="list-unstyled">
+                                <li>
+                                    Email01
+                                </li>
+                                <li>
+                                    Email02
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>Address</div>
+                        <div>
+                            <ul class="list-unstyled">
+                                <li>
+                                    Address01
+                                </li>
+                                <li>
+                                    Address02
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>Phone</div>
+                        <div>
+                            <ul class="list-unstyled">
+                                <li>
+                                    number01
+                                </li>
+                                <li>
+                                    number02
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md mx-auto mb-4">
+                    <div class="lead">Copyright: Cameron Duncan Circa. 2020</div>
+
+                </div>
+
+                <div class="col-sm-12 col-md lead">
+                    <div class="mb-3">Social Medias</div>
+                    <div>
+                        <ul class="list-inline">
+                            <li class="list-inline-item mr-4"><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
+                            <li class="list-inline-item mr-4"><a href="https://www.linkedin.com/feed/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                            <li class="list-inline-item mr-4"><a href="https://www.instagram.com/?hl=en" target="_blank"><i class="fab fa-instagram-square"></i></a></li>
                         </ul>
                     </div>
                 </div>
 
-                <div>
-                    <div>Address</div>
-                    <div>
-                        <ul>
-                            <li>
-                                Address01
-                            </li>
-                            <li>
-                                Address02
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div>
-                    <div>Phone</div>
-                    <div>
-                        <ul>
-                            <li>
-                                number01
-                            </li>
-                            <li>
-                                number02
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            
-            <div>
-                <div>Copyright: Cameron Duncan C. 2020</div>
-                
-            </div>
-            
-            <div>
-                <div>Social Medias</div>
-                <div>
-                    <ul>
-                        <li>FaceBook</li>
-                        <li>Linkedin</li>
-                        <li>Instagram</li>
-                    </ul>
-                </div>
-            </div>
+            </div> 
         </section>
     </body>
     
+        <!--Scripts------------------------------------------->    
         <script src="scripts/app.js"></script>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>

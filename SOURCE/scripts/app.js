@@ -134,3 +134,12 @@ function bookRiver()
         bk_river.style.display = "none";
     }
 }
+
+
+function treksPage_castle()
+{
+    document.location = "Treks.html";
+    
+    document.getElementById("Castle-Locations").style.display = "block-inline";
+    
+}
