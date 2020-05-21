@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Highland Treks: Home Page</title>
+    <title>Highland Treks: Booking Page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/style.css">
@@ -13,7 +13,7 @@
         <div class="navbar navbar-expand-sm navbar-light bg-light">
             <nav class="container-fluid">
                 <div class="navbar-brand">
-                   <a href="index.html">Logo</a>               
+                   <a class="HTNav" href="index.html">Logo</a>               
                 </div>
                    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
                        <span class="navbar-toggler-icon"></span>
@@ -21,13 +21,13 @@
                    <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav ml-auto">
                             <li class="navbar-item text-right">
-                                <a class="nav-link" href="index.html">HOME</a>
+                                <a class="nav-link HTNav nav-inactive" href="index.html">HOME</a>
                             </li>
                             <li class="navbar-item text-right">
-                                <a class="nav-link" href="Treks.html">TREKS</a>
+                                <a class="nav-link HTNav nav-inactive" href="Treks.html">TREKS</a>
                             </li>
                             <li class="navbar-item text-right">
-                                <a class="nav-link" href="Booking.html">BOOK</a>
+                                <a class="nav-link HTNav nav-active" href="Booking.html">BOOK</a>
                             </li>
                         </ul>
                     </div>              
@@ -35,18 +35,19 @@
         </div>
 
  <!--Button Section-->
- <div class="container-fluid">
+ <div class="mb-5"></div>
+ <div class="container-fluid index-con mb-5">
      <div class="row">
           <section class="col">
-              <div>
-                  <div>
-                      <button onclick="bookCastle()">Castle Button</button>
+              <div class="trek-book-buttons">
+                  <div class="mb-3">
+                      <button class=" btn btn-trek-book grow" onclick="bookCastle()">Castle Button</button>
+                  </div>
+                  <div class="mb-3">
+                      <button class=" btn btn-trek-book grow" onclick="bookForest()">Forest Button</button>
                   </div>
                   <div>
-                      <button onclick="bookForest()">Forest Button</button>
-                  </div>
-                  <div>
-                      <button onclick="bookRiver()">River Loch Button</button>
+                      <button class="btn btn-trek-book grow" onclick="bookRiver()">River Loch Button</button>
                   </div>
               </div>
           </section>
@@ -62,7 +63,7 @@
                  <span class="display-4 ml-3" style="display: none;" id="riverBook">River & Loch Trek</span>
              </div>
              
-              <div class="form-group">
+              <div class="form-group mb-5">
                  <label for="fname">First/Last Name:</label>
                   <input id="fname" type="text" placeholder="Enter FirstName" class="form-control mb-3">
                  
@@ -74,7 +75,7 @@
               </div>
               
               <div class="text-center">
-                    <input type="submit" class="btn btn-success btn-lg" value="Book Now" disabled="disabled"/>
+                    <input type="submit" class="btn btn-success btn-lg book-btn-book" value="Book Now" disabled="disabled"/>
                 </div>
             </div>
           </section>
@@ -82,75 +83,76 @@
     </div>
    
     <!--Contacts------------------------------------------->
-        <section class="container">
-            <div class="lead mb-4">Contacts</div>
-            
-            <div class="row">           
-            
-                <div class="col-sm-12 col-md lead mb-4">
-                    <div>
-                        <div>Email</div>
+       <div class="contacts book-contacts">
+            <section class="container">
+                <div class="lead mb-4">Contacts</div>
+
+                <div class="row">           
+
+                    <div class="col-sm-12 col-md lead mb-4">
                         <div>
-                            <ul class="list-unstyled">
-                                <li>
-                                    Email01
-                                </li>
-                                <li>
-                                    Email02
-                                </li>
+                            <div>Email</div>
+                            <div>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        Email01
+                                    </li>
+                                    <li>
+                                        Email02
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div>Address</div>
+                            <div>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        Address01
+                                    </li>
+                                    <li>
+                                        Address02
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div>Phone</div>
+                            <div>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        number01
+                                    </li>
+                                    <li>
+                                        number02
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-12 col-md mx-auto mb-4">
+                        <div class="lead">Copyright: Cameron Duncan Circa. 2020</div>
+
+                    </div>
+
+                    <div class="col-sm-12 col-md lead">
+                        <div class="mb-3">Social Medias</div>
+                        <div>
+                            <ul class="list-inline">
+                                <li class="list-inline-item mr-4"><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
+                                <li class="list-inline-item mr-4"><a href="https://www.linkedin.com/feed/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                                <li class="list-inline-item mr-4"><a href="https://www.instagram.com/?hl=en" target="_blank"><i class="fab fa-instagram-square"></i></a></li>
                             </ul>
                         </div>
                     </div>
 
-                    <div>
-                        <div>Address</div>
-                        <div>
-                            <ul class="list-unstyled">
-                                <li>
-                                    Address01
-                                </li>
-                                <li>
-                                    Address02
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+                </div> 
 
-                    <div>
-                        <div>Phone</div>
-                        <div>
-                            <ul class="list-unstyled">
-                                <li>
-                                    number01
-                                </li>
-                                <li>
-                                    number02
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-12 col-md mx-auto mb-4">
-                    <div class="lead">Copyright: Cameron Duncan Circa. 2020</div>
-
-                </div>
-
-                <div class="col-sm-12 col-md lead">
-                    <div class="mb-3">Social Medias</div>
-                    <div>
-                        <ul class="list-inline">
-                            <li class="list-inline-item mr-4"><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
-                            <li class="list-inline-item mr-4"><a href="https://www.linkedin.com/feed/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-                            <li class="list-inline-item mr-4"><a href="https://www.instagram.com/?hl=en" target="_blank"><i class="fab fa-instagram-square"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-
-            </div> 
-        
-        </section>
-        
+            </section>
+        </div>
         <!--Scripts------------------------------------------->    
         <script src="scripts/app.js"></script>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

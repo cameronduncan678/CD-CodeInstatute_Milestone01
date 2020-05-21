@@ -1,6 +1,58 @@
 /*Body */
 
+.grow
+{
+    transition: all .2s ease-in-out;
+}
+
+.grow:hover
+{
+    transform: scale(1.1);
+}
+
+.book-btn
+{
+    height:70px;
+    width:200px;
+    border-radius:50px;
+    font-size:25px;
+}
+
+.book-btn:hover
+{
+    background-color: #fafafa;
+    border-color:#28a745;
+    color:#28a745;
+}
+
+.display-3
+{
+    font-size:50px;
+    font-weight:350;
+    font-style: italic;
+}
+
+.divide
+{
+    margin-top:2%
+}
+
 /*Nav */
+.HTNav
+{
+    font-size:18px
+}
+
+.nav-active
+{
+    text-decoration: underline;
+}
+
+.nav-inactive:hover
+{
+    text-decoration: underline;
+}
+
 
 /*Contact */
 .display-4
@@ -8,6 +60,14 @@
     font-size: 30px;
     font-weight: 350;
 }
+
+
+.contacts
+{
+    background:grey;
+}
+
+
 
 
 /*Index Specific -----------------------------------------------------------*/
@@ -37,6 +97,15 @@
     padding-top: 4%;
 }
 
+.learn-btn
+{
+    height:50px;
+    width:130px;
+    font-size: 18px;
+    border:solid 2px;
+    font-weight:700;
+}
+
 /*Map Graphic and Features */
 
     /*Map Graphic */
@@ -45,7 +114,8 @@
 .features
 {
     background: url("images/placeholders/Placeholder_mainImage_01.jpg")center center;
-    height:70vh;
+    padding-top:4%;
+    padding-bottom:8%;
 }
 
 .features-box
@@ -70,9 +140,29 @@
     margin-bottom: 5%;
 }
 
+/*History */
 
-
-
+.history-section
+{
+    margin-top:4%;
+    margin-bottom:4%;
+}
+.history
+{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.history p
+{
+    padding-top:20px;
+    font-size:20px;
+}
+.image-box
+{
+    border:solid;
+    height:500px;
+    width:70%
+}
 /*Trek links */
 
 .trek-links
@@ -80,47 +170,119 @@
     padding-top:8vh;
     padding-bottom: 8vh;
     background: grey;
+    
 }
 
 .btn-trek-link
 {
-    margin-top:20%;
-    margin-bottom: 20%;
-    border:solid;
-    height:450px;
-    width:350px;
+    margin-top:10%;
+    margin-bottom: 10%;
+    height:30rem;
+    width:23rem;
+    border-radius:0;
 }
 
-.grow
-{
-    transition: all .2s ease-in-out;
-}
 
-.grow:hover
-{
-    transform: scale(1.1);
-}
 /*Testimonial */
+
+.testimonials
+{
+    position:relative;
+    margin-top:40px;
+    margin-bottom: 40px;
+}
+
+.testimonial-box
+{
+    position:relative;
+    margin-top:8%;
+    margin-bottom: 8%;
+}
+
+.quote-box
+{
+    padding-right:10%;
+    padding-left:10%;
+}
+
 
 
 
 /*Trek Specific -----------------------------------------------------------*/
 
-/*Trek Links */
+.space
+{
+    height:43vh;
+}
 
-/*Castle Trek */
+.trek-btn
+{
+    border:0;
+    font-size:140%
+}
 
-/*Forest Trek */
+.grow-trek:hover
+{
+    border-bottom:solid;
+}
 
-/*River & Loch Trek */
+.location-box
+{
+    border: solid 1px;
+    font-size: 20px;
+    padding:40px;
+    width:100%;
+    height:33vh
+}
+
+.location-box-right
+{
+    float:right;
+    padding-right:600px;
+}
+
+.location-box-left
+{
+    float:right;
+    padding-left:600px;
+}
+
 
 
 
 /*Book Specific -----------------------------------------------------------*/
 
 /*Trek Buttons */
+.trek-book-buttons
+{
+    margin-top:8%
+}
+
+.btn-trek-book
+{
+    height:5rem;
+    width:500px;
+    border-radius:0px;
+    padding-left:20px;
+    text-align: left;
+    font-size:20px;
+    font-weight:bold;
+    background: grey;
+    color:#fafafa;
+}
 
 /*Form */
 
+.book-btn-book
+{
+    height:60px;
+    width:170px;
+    border-radius:50px;
+    font-size:23px; 
+}
 /*Book page Contacts */
 
+.book-contacts
+{
+    height: 70vh
+}

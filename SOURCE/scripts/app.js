@@ -2,6 +2,7 @@ var castle = document.getElementById("Castle-Locations");
 var forest = document.getElementById("Forest-locations");
 var river = document.getElementById("River-locations");
 
+var space = document.getElementById("white-space");
 
 //Trek page functions -------------------------------//
 function castle_Loc_Page()
@@ -16,11 +17,14 @@ function castle_Loc_Page()
         {
             river.style.display = "none";
         }
+        
         castle.style.display = "block";
+        space.style.display = "none";
     }
     else
     {
         castle.style.display = "none";
+        space.style.display = "block";
     }
 }
 
@@ -38,10 +42,12 @@ function forest_Loc_Page()
             river.style.display = "none";
         }
         forest.style.display = "block";
+        space.style.display = "none";
     }
     else
     {
         forest.style.display = "none";
+        space.style.display = "block";
     }
 }
 
@@ -59,10 +65,12 @@ function river_Loc_Page()
             forest.style.display = "none";
         }
         river.style.display = "block";
+        space.style.display = "none";
     }
     else
     {
         river.style.display = "none";
+        space.style.display = "block";
     }
 }
 

@@ -14,21 +14,21 @@
         <div class="navbar navbar-expand-sm navbar-light bg-light">
             <nav class="container-fluid">
                 <div class="navbar-brand">
-                   <a href="index.html">Logo</a>               
+                   <a href="index.html HTNav">Logo</a>               
                 </div>
                    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
                        <span class="navbar-toggler-icon"></span>
                    </button>
                    <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav ml-auto">
-                            <li class="navbar-item text-right">
-                                <a class="nav-link" href="index.html">HOME</a>
+                            <li class="navbar-item text-right">  
+                                <a class="nav-link HTNav nav-active" href="index.html">HOME</a>                        
                             </li>
                             <li class="navbar-item text-right">
-                                <a class="nav-link" href="Treks.html">TREKS</a>
+                                <a class="nav-link HTNav nav-inactive" href="Treks.html">TREKS</a>
                             </li>
                             <li class="navbar-item text-right">
-                                <a class="nav-link" href="Booking.html">BOOK</a>
+                                <a class="nav-link HTNav nav-inactive" href="Booking.html">BOOK</a>
                             </li>
                         </ul>
                     </div>              
@@ -41,16 +41,22 @@
                 <div id="Welcome-Image">  
                 </div>
             </section>
-            <div class="container-fluid index-con">
+            
             <!--Title and Sub-->
+            <div class="container-fluid index-con">
             <section class="title-section">
                <div class="title-box">
                     <div>
-                        <h1 class="text-center">Highland Treks</h1>
+                        <h1 class="text-uppercase font-weight-bold mx-5">Highland Treks</h1>
                     </div>
                     <div>
-                        <h3 class="lead font-weight-bold text-center mt-5">Welcome to Highland Treks a source for tourist destinations and tours through the wonderful Scottish highlands</h3>
+                        <h3 class="lead font-weight-bold mt-5 mx-5">Welcome to Highland Treks a source for tourist destinations and tours through the wonderful Scottish highlands</h3>
                     </div>
+                </div>
+                <div>
+                   <a href="#history">
+                        <button class="button mx-5 mt-5 learn-btn grow">Learn More</button>
+                    </a>
                 </div>
             </section>
             </div>
@@ -91,6 +97,30 @@
                     </div>
                 </div>
             </section>
+            
+            <div id="history"></div>
+            
+            <!--History-->
+            <section class="container-fluid index-con history-section">
+               <div class="row">
+                   <div class="col">
+                       <div class="history">
+                            <div>
+                                <h1 class="display-3">Scottish Highlands</h1>
+                            </div>
+                            <div >
+                               <p class="text-justify">
+                                    The Highlands of Scotland are one of the most iconic locations in all of Britain.  It has continued to be a number one tourist destination for anyone visiting the Isles.  The Highlands feature some of the richest history in Scotland.  Through its long standing Pictish heritage and the kingdom of Alba, standing against the endless Viking Hordes, its oppressive years under the tyranny of foreign Kings and the home to the last battle on British soil.  The Highlands has a colourful history and has been shared widespread through the world. 
+                                </p>  
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                       <div class="image-box">  
+                       </div>
+                    </div>
+                </div>
+            </section>
 
             <!--Trek-->
             <section class="container-fluid trek-links trek-links">
@@ -127,38 +157,47 @@
 
             <!--Testimonial-->
             <section class="container-fluid index-con">
-              <div class="blockquote">
-                   <div class="row">
-                        <div class = "col-md col-sm-12">
-                            <div class="font-italic">
-                                Never been to Scotland before and after taking one of the treks I never wanted to leave.  Cant wait to come back and take advantage of yet another trek.
-                            </div>
-                            <div class="blockquote-footer">
-                                Jonathan Clay, Brooklyn NY
-                            </div>
-                        </div>
+             <div class="testimonials">
+                 <div class="testimonial-box">
+                      <div class="blockquote">
+                           <div class="row">
+                                <div class = "col-md col-sm-12">
+                                   <div class="quote-box">
+                                        <div class="font-italic">
+                                            Never been to Scotland before and after taking one of the treks I never wanted to leave.  Cant wait to come back and take advantage of yet another trek.
+                                        </div>
+                                        <div class="blockquote-footer mb-5">
+                                            Jonathan Clay, Brooklyn NY
+                                        </div>
+                                    </div>
+                                </div>
 
-                        <div class = "col-md col-sm-12">
-                            <div class="font-italic">
-                                The History and Beauty of the Highlands was not exaggerated.  Thank you Highland Treks for a wonderful holiday.
-                            </div>
-                            <div class="blockquote-footer">
-                                Maria Sallelli, Rhodes GR
+                                <div class = "col-md col-sm-12">
+                                   <div class="quote-box">
+                                        <div class="font-italic">
+                                            The History and Beauty of the Highlands was not exaggerated.  Thank you Highland Treks for a wonderful holiday.
+                                        </div>
+                                        <div class="blockquote-footer mb-3">
+                                            Maria Sallelli, Rhodes GR
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col text-center">
-                       <a href="Booking.html">
-                            <button class="btn btn-success btn-lg">Book Now</button>
-                        </a>
+                        <div class="row">
+                            <div class="col text-center mt-5">
+                               <a href="Booking.html">
+                                    <button class="btn btn-success btn-lg book-btn">Book Now</button>
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
         
         
     <!--Contacts------------------------------------------->
+       <footer class="contacts">
         <section class="container">
             <div class="lead mb-4">Contacts</div>
             
@@ -226,6 +265,7 @@
 
             </div> 
         </section>
+        </footer>
     </body>
     
         <!--Scripts------------------------------------------->    
