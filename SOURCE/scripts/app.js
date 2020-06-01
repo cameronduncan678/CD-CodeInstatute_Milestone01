@@ -16,23 +16,19 @@ function castle_Loc_Page()
         if(forest.style.display === "block")
         {
             forest.style.display = "none";
-            forestButton.classList.remove(" trek-button-active");
         }
         if(river.style.display === "block")
         {
             river.style.display = "none";
-            riverButton.classList.remove(" trek-button-active");
         }
         
         castle.style.display = "block";
         space.style.display = "none";
-        castleButton.classList.add(" trek-button-active");
     }
     else
     {
         castle.style.display = "none";
         space.style.display = "block";
-        castleButton.classList.remove(" trek-button-active");
     }
 }
 
@@ -44,51 +40,40 @@ function forest_Loc_Page()
         if(castle.style.display === "block")
         {
             castle.style.display = "none";
-            castleButton.classList.remove(" trek-button-active");
         }
         if(river.style.display === "block")
         {
             river.style.display = "none";
-            riverButton.classList.remove(" trek-button-active");
         }
         forest.style.display = "block";
         space.style.display = "none";
-        forestButton.classList.add(" trek-button-active");
     }
     else
     {
         forest.style.display = "none";
         space.style.display = "block";
-        forestButton.classList.remove(" trek-button-active");
     }
 }
 
 function river_Loc_Page()
-{
-    
+{ 
     if(river.style.display === "none")
     {
         if(castle.style.display === "block")
         {
             castle.style.display = "none";
-            castle_button.style.display = "none";
-            castleButton.classList.remove(" trek-button-active");
         }
         if(forest.style.display === "block")
         {
             forest.style.display = "none";
-            forest_button.style.display = "none";
-            forestButton.classList.remove(" trek-button-active");
         }
         river.style.display = "block";
         space.style.display = "none";
-        riverButton.classList.add(" trek-button-active");
     }
     else
     {
         river.style.display = "none";
         space.style.display = "block";
-        riverButton.classList.remove(" trek-button-active");
     }
 }
 
