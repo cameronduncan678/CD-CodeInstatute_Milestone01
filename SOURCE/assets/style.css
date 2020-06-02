@@ -38,9 +38,15 @@
 }
 
 /*Nav */
+.navbar
+{
+    background: #2f9442;
+}
+
 .HTNav
 {
-    font-size:18px
+    font-size:18px;
+    color:#31703d;
 }
 
 .nav-active
@@ -64,7 +70,7 @@
 
 .contacts
 {
-    background:grey;
+    background:#31703d;
 }
 
 
@@ -118,7 +124,7 @@
     /*Features */
 .features
 {
-    background: url("images/placeholders/Placeholder_mainImage_01.jpg")center center;
+    background: #31703d;
     padding-top:4%;
     padding-bottom:8%;
 }
@@ -176,8 +182,7 @@
 {
     padding-top:8vh;
     padding-bottom: 8vh;
-    background: grey;
-    
+    background: grey;  
 }
 
 .btn-trek-link
@@ -194,6 +199,13 @@
     color:#fafafa;
     font-size:25px;
     font-weight:400;
+    background:#2f9442;
+    padding-top:10px;
+    padding-bottom:2px;
+    padding-right:90px;
+    margin-top:300px;
+    margin-right:80px;
+    padding-left:20px;
 }
 
 #castle-trek-link
@@ -315,6 +327,12 @@
 {
     float:right;
     padding-left:600px;
+}
+
+.loc-text
+{
+    background:#2f9442;
+    padding:30px;
 }
 
 #cawdorCastle
