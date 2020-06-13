@@ -190,7 +190,7 @@
     margin-top:10%;
     margin-bottom: 10%;
     height:30rem;
-    width:23rem;
+    width:25rem;
     border-radius:0;
     box-shadow: 10px 10px;
 }
@@ -467,6 +467,7 @@
 
 @media only screen and (max-width: 576px) {
 
+    /*Trek Media Queries*/
     #Welcome-Image{
         background-size: cover;
     }
@@ -487,6 +488,25 @@
         height:600px;
         background: url(images/index/HistoryImage.jpg)-490px center;
         background-size: cover;
+    }
+
+    /*Book Media Queries*/
+    .btn-trek-book{
+        width:300px;
+    }
+    .trek-book-buttons{
+        margin-bottom: 40px;
+    }
+
+    .book-form-title{
+        font-size: 20px;
+    }
+
+    .book-text{
+        font-size: 20px;
+    }
+    .book-contacts{
+        height:80vh;
     }
 }
 

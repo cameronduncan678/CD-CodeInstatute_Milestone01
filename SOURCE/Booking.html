@@ -57,10 +57,10 @@
           <section class="col-sm-12 col-md">
              <div class="container-fluid">
              
-             <div class="mb-3 display-4">Booking for: 
-                 <span class="display-4 ml-3" style="display: none;" id="castleBook">Castle Trek</span>
-                 <span class="display-4 ml-3" style="display: none;" id="forestBook">Forest Trek</span>
-                 <span class="display-4 ml-3" style="display: none;" id="riverBook">River & Loch Trek</span>
+             <div class="mb-3 display-4 book-form-title">Booking for: 
+                 <span class="display-4 ml-3 book-text" style="display: none;" id="castleBook">Castle Trek</span>
+                 <span class="display-4 ml-3 book-text" style="display: none;" id="forestBook">Forest Trek</span>
+                 <span class="display-4 ml-3 book-text" style="display: none;" id="riverBook">River & Loch Trek</span>
              </div>
              
               <div class="form-group mb-5">
@@ -71,11 +71,11 @@
                 <label for="email">Email:</label>
                   <input id="email" type="email" placeholder="Enter Email" class="form-control mb-3">
                 <label for="date">Date:</label>
-                <input type="date" class="form-control mb-3">
+                <input type="date" class="form-control mb-3" id="date">
               </div>
               
               <div class="text-center">
-                    <input type="submit" class="btn btn-success btn-lg book-btn-book" value="Book Now" disabled="disabled"/>
+                    <input type="submit" id="book-btn" class="btn btn-success btn-lg book-btn-book" value="Book Now" disabled="disabled"/>
                 </div>
             </div>
           </section>
