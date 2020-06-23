@@ -1,5 +1,16 @@
 /*Body */
 
+/*
+Green:
+primary color: #ff7626
+
+Orange:
+primary color: #ff7626
+*/
+.btn-success{
+    background: #ff7626;
+    border-color: #ff7626;
+}
 .grow
 {
     transition: all .2s ease-in-out;
@@ -21,8 +32,8 @@
 .book-btn:hover
 {
     background-color: transparent;
-    border-color:#28a745;
-    color:#28a745;
+    border-color:#ff7626;
+    color:#ff7626;
 }
 
 .display-3
@@ -40,13 +51,13 @@
 /*Nav */
 .navbar
 {
-    background: #2f9442;
+    background: #ff7626;
 }
 
 .HTNav
 {
     font-size:18px;
-    color:#31703d;
+    color:white;
 }
 
 .nav-active
@@ -70,7 +81,7 @@
 
 .contacts
 {
-    background:#31703d;
+    background:#ff7626;
 }
 
 
@@ -124,7 +135,7 @@
     /*Features */
 .features
 {
-    background: #31703d;
+    background: #ff7626;
     padding-top:4%;
     padding-bottom:8%;
 }
@@ -200,7 +211,7 @@
     color:#fafafa;
     font-size:25px;
     font-weight:400;
-    background:#2f9442;
+    background:#ff7626;
     padding-top:10px;
     padding-bottom:2px;
     padding-right:90px;
@@ -255,6 +266,7 @@
 #quoteImage
 {
     background: url(images/index/quoteImage.jpg)center center;
+    width: 100%;
     background-size:cover
 }
 
@@ -330,7 +342,7 @@
 
 .loc-text
 {
-    background:#2f9442;
+    background:#ff7626;
     padding:30px;
     box-shadow: grey 10px 10px;
 }
@@ -419,6 +431,9 @@
     width:170px;
     border-radius:50px;
     font-size:23px; 
+    background: #ff7626;
+    border: #ff7626;
+    color: white;
 }
 /*Book page Contacts */
 
