@@ -70,6 +70,14 @@ primary color: #ff7626
     text-decoration: underline;
 }
 
+.logo{
+    color: white;
+    font-size: x-large;
+}
+
+.navbar-dark{
+    color: white;
+}
 
 /*Contact */
 .display-4
@@ -124,8 +132,11 @@ primary color: #ff7626
     height:50px;
     width:130px;
     font-size: 18px;
-    border:solid 2px;
+    border:solid 2px black;
     font-weight:700;
+    padding-top: 10px;
+    text-align: center;
+    color: black;
 }
 
 /*Map Graphic and Features */
