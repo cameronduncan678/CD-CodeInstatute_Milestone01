@@ -1,3 +1,13 @@
+/*TESTING*/
+
+.testing{
+    background-color: red;
+    height:30rem;
+    margin:1%;
+    
+}
+
+
 /*Body */
 
 .fontSecondary{
@@ -216,29 +226,9 @@ primary color: #ff7626
     background: grey;  
 }
 
-.btn-trek-link
-{
-    margin-top:10%;
-    margin-bottom: 10%;
+.trek-btns{
     height:30rem;
-    width:25rem;
-    border-radius:0;
-    box-shadow: 10px 10px;
-}
-
-.trek-link-title
-{
-    color:#fafafa;
-    font-size:25px;
-    font-weight:400;
-    background:#ff7626;
-    padding-top:10px;
-    padding-bottom:2px;
-    padding-right:90px;
-    margin-top:300px;
-    margin-right:80px;
-    padding-left:20px;
-    
+    margin:2%;
 }
 
 #castle-trek-link
@@ -246,6 +236,7 @@ primary color: #ff7626
     background: url(images/index/CastleTrekImage_base1.jpg)center center no-repeat;
     background-size: cover;
     transition: all .2s ease-in-out;
+    
 }
 
 #forest-trek-link
@@ -253,6 +244,7 @@ primary color: #ff7626
     background: url(images/index/ForestTrekImage_base1.jpg)center center no-repeat;
     background-size: cover;
     transition: all .2s ease-in-out;
+
 }
 
 #river-trek-link
@@ -368,9 +360,7 @@ primary color: #ff7626
     box-shadow: grey 10px 10px;
 }
 
-.trek-title{
-    
-}
+
 
 #cawdorCastle
 {
@@ -505,7 +495,11 @@ primary color: #ff7626
 
 /*Media Queries*/
 
-@media only screen and (max-width: 576px) {
+@media (max-width: 750px ) {
+
+    .index-con{
+        width:70%;
+    }
 
     /*Trek Media Queries*/
     #Welcome-Image{
@@ -514,9 +508,6 @@ primary color: #ff7626
     
     .title-text h1{
         font-size: 250%;
-    }
-    .btn-trek-link{
-        width:18rem;
     }
     .history{
         margin-top:10%;
@@ -547,6 +538,12 @@ primary color: #ff7626
     }
     .book-contacts{
         height:80vh;
+    }
+}
+
+@media (max-width:970px ){
+    .trek-btns{
+        margin-top: 20px;
     }
 }
 
