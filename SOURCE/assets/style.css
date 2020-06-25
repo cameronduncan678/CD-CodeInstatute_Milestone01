@@ -1,4 +1,11 @@
 /*Body */
+.fontPrimary{
+    font-family: 'Karla', sans-serif;
+}
+
+.fontSecondary{
+    font-family: 'Noto Serif KR', serif;
+}
 
 .grow
 {
@@ -143,7 +150,8 @@
     font-size: 25px;
     padding-bottom: 4px;
     border-bottom: solid 4px;
-    margin-right: 250px
+    margin-right: 250px;
+    font-style: italic;
 }
 
 .feature-text
@@ -207,6 +215,7 @@
     margin-top:300px;
     margin-right:80px;
     padding-left:20px;
+    font-style: italic;
 }
 
 #castle-trek-link
@@ -333,6 +342,10 @@
     background:#2f9442;
     padding:30px;
     box-shadow: grey 10px 10px;
+}
+
+.trek-title{
+    font-style: italic;
 }
 
 #cawdorCastle
