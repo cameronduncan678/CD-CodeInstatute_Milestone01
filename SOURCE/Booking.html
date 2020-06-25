@@ -10,8 +10,8 @@
 </head>
 <body>
 <!--Nav Bar------------------------------------------->
-        <div class="navbar navbar-expand-sm navbar-light bg-light">
-            <nav class="container-fluid">
+        <nav class="navbar navbar-expand-sm">
+            <div class="container-fluid">
                 <div class="navbar-brand">
                    <a class="HTNav" href="index.html">Logo</a>               
                 </div>
@@ -31,14 +31,15 @@
                             </li>
                         </ul>
                     </div>              
+                </div>
             </nav>
-        </div>
 
  <!--Button Section-->
+ <section>
  <div class="mb-5"></div>
  <div class="container-fluid index-con mb-5">
      <div class="row">
-          <section class="col-sm-12 col-md">
+          <div class="col-sm-12 col-md">
               <div class="trek-book-buttons">
                   <div class="mb-3">
                       <button class=" btn btn-trek-book grow" id="bookCastleBtn" onclick="bookCastle()">Castle Button</button>
@@ -50,7 +51,7 @@
                       <button class="btn btn-trek-book grow" id="bookRiverBtn"  onclick="bookRiver()">River Loch Button</button>
                   </div>
               </div>
-          </section>
+          </div>
 
           <!--Forms-->
           
@@ -75,16 +76,16 @@
               </div>
               
               <div class="text-center">
-                    <input type="submit" id="book-btn" class="btn btn-success btn-lg book-btn-book" value="Book Now" disabled="disabled"/>
+                    <input type="submit" id="book-btn" class="btn btn-lg book-btn-book" value="Book Now" disabled="disabled"/>
                 </div>
             </div>
           </section>
       </div>
     </div>
-   
+   </section>
     <!--Contacts------------------------------------------->
-       <div class="contacts book-contacts">
-            <section class="container">
+       <footer class="contacts book-contacts">
+            <div class="container">
                 <div class="lead mb-4">Contacts</div>
 
                 <div class="row">           
@@ -95,38 +96,35 @@
                             <div>
                                 <ul class="list-unstyled">
                                     <li>
-                                        Email01
-                                    </li>
-                                    <li>
-                                        Email02
+                                        cameronduncan678@gmail.com
                                     </li>
                                 </ul>
                             </div>
                         </div>
-
+    
                         <div>
                             <div>Address</div>
                             <div>
                                 <ul class="list-unstyled">
                                     <li>
-                                        Address01
-                                    </li>
-                                    <li>
-                                        Address02
+                                        Bowling Green Cottage
+                                        <br>
+                                        Cawdor
+                                        <br>
+                                        Nairn, Highlands
+                                        <br>
+                                        IV12 5XP
                                     </li>
                                 </ul>
                             </div>
                         </div>
-
+    
                         <div>
                             <div>Phone</div>
                             <div>
                                 <ul class="list-unstyled">
                                     <li>
-                                        number01
-                                    </li>
-                                    <li>
-                                        number02
+                                        +44 7885 971 151
                                     </li>
                                 </ul>
                             </div>
@@ -151,8 +149,8 @@
 
                 </div> 
 
-            </section>
-        </div>
+            </div>
+        </footer>
         <!--Scripts------------------------------------------->    
         <script src="scripts/app.js"></script>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
