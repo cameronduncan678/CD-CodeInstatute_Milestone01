@@ -1,10 +1,11 @@
 /*Body */
-.fontPrimary{
-    font-family: 'Karla', sans-serif;
-}
 
 .fontSecondary{
     font-family: 'Noto Serif KR', serif;
+}
+
+.make-italic{
+    font-style: italic;
 }
 
 /*
@@ -47,7 +48,7 @@ primary color: #ff7626
 {
     font-size:50px;
     font-weight:350;
-    font-style: italic;
+    
 }
 
 .divide
@@ -173,7 +174,7 @@ primary color: #ff7626
     padding-bottom: 4px;
     border-bottom: solid 4px;
     margin-right: 250px;
-    font-style: italic;
+    
 }
 
 .feature-text
@@ -237,7 +238,7 @@ primary color: #ff7626
     margin-top:300px;
     margin-right:80px;
     padding-left:20px;
-    font-style: italic;
+    
 }
 
 #castle-trek-link
@@ -368,7 +369,7 @@ primary color: #ff7626
 }
 
 .trek-title{
-    font-style: italic;
+    
 }
 
 #cawdorCastle
