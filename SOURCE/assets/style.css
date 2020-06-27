@@ -24,6 +24,7 @@ primary color: #ff7626
 
 Orange:
 primary color: #ff7626
+secondary color: #ba7852
 */
 .btn-success{
     background: #ff7626;
@@ -107,7 +108,7 @@ primary color: #ff7626
 
 .contacts
 {
-    background:#ff7626;
+    background:#ba7852;
 }
 
 
@@ -226,7 +227,7 @@ primary color: #ff7626
 .image-box
 {
     height:800px;
-    width:70%;
+    width:90%;
     background: url(images/index/HistoryImage.jpg)center center;
     background-size: cover; 
 }
@@ -236,7 +237,23 @@ primary color: #ff7626
 {
     padding-top:8vh;
     padding-bottom: 8vh;
-    background: grey;  
+    background: #ba7852;  
+}
+
+.trek-links-con{
+    width: 90%;
+}
+
+.trek-link-title{
+    height: 50px;
+    width: 60%;
+    position: absolute;
+    left: 5%;
+    bottom: 10%;
+    background: #ff7626;
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
 }
 
 .trek-btns{
@@ -522,7 +539,6 @@ primary color: #ff7626
     .index-con{
         width:95%;
     }
-
     /*Trek Media Queries*/
     #Welcome-Image{
         background-size: cover;
@@ -537,10 +553,11 @@ primary color: #ff7626
         padding-right: 5%;
     }
     .image-box{
-        width:100%;
+        width:70%;
         height:600px;
         background: url(images/index/HistoryImage.jpg)-490px center;
         background-size: cover;
+        margin: 0 auto;
     }
 
     /*Book Media Queries*/
@@ -566,6 +583,10 @@ primary color: #ff7626
 @media (max-width:970px ){
     .trek-btns{
         margin-top: 20px;
+    }
+
+    .image-box{
+        width: 50%;
     }
 }
 
