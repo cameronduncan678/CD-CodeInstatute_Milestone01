@@ -109,10 +109,22 @@ secondary color: #ba7852
 .contacts
 {
     background:#ba7852;
+    color: white;
 }
 
+.contacts-header{
+    font-weight: bolder;
+    font-size: 25px;
+}
 
+.contacts-titles{
+    font-weight: bold;
+}
 
+.social{
+    font-size: 40px;
+    color: white;
+}
 
 /*Index Specific -----------------------------------------------------------*/
 
