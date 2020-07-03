@@ -398,6 +398,17 @@ secondary color: #ba7852
     font-weight: bold;
 }
 
+.inactive-trek
+{
+    height:50px;
+    width:50%;
+    background: white;
+    color:#ff7626;
+    border-radius: 0;
+    font-size: 95%;
+    font-weight: bold;
+    border: solid 1px #ff7626;
+}
 
 .location-box
 {
