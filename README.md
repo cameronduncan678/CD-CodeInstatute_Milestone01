@@ -29,7 +29,7 @@ Navigation features:
     * Trek page 
     * Book page
 
-For design the navbar used a minimal one lighter color style with white letters. The color chosen was the **primary colour** (see color section) with white lettering to make it easier for users to see.  For further ease in user experiance each page contains a class of:
+For design the navbar used a minimal one lighter color style with white letters. The color chosen was the **primary colour** (see color section) with white lettering to make it easier for users to see.  For further ease in user experiance each page contains a class coded in **style.css** of:
 
 ```html
     class = "nav-active"
@@ -44,6 +44,33 @@ Or
 If the user is not on the page specified by the nav item.
 
 These are for easy identification of the page the user is currently on.
+
+#### Colours
+
+Colours chosen for the website where for minimal style reasons only and not the main focus of the site design.  However some colour was necessary to avoid the website looking bland for users.  
+
+Originally the colors picked was a green primary colour with a darker green secondary colour. Colours where in hex:
+
+```css
+Green{
+    /*Primary Colour*/
+    color: #2f9442;
+    /*Secondary Colour*/
+    color: #31703d;
+}
+```
+
+While the green certainly matched some of the images used it was not a primary colour found throughout the site.  Because of this a brighter orange colour was chosen.  
+
+```css
+Orange{
+    /*Primary Colour*/
+    color: #ff7626;
+    /*Secondary Colour*/
+    color: #ba7852;
+}
+```
+The orange was alot more fitting throughout as it matched the tones of the images on the sight.  
 #### Index
 
 The main page of the website is the **index.html** document.    
