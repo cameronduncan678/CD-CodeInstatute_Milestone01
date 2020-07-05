@@ -71,9 +71,13 @@ Orange{
 }
 ```
 The orange was alot more fitting throughout as it matched the tones of the images on the sight.  
+
+### Webpages
 #### Index
 
-The main page of the website is the **index.html** document.    
+The main page of the website is the **index.html** document.  
+
+
 
 
 
