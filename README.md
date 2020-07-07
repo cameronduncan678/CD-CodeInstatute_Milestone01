@@ -155,6 +155,8 @@ On all devices the website responds well and shows all information needed withou
 
 The site was deployed using GitHub pages.
 
+URL: https://cameronduncan678.github.io/HighlandTreks-Website/
+
 Steps to deploy:
 * Move html documents to main directory
 * On the Github repository page
