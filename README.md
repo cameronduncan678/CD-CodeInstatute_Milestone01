@@ -29,19 +29,7 @@ Navigation features:
     * Trek page 
     * Book page
 
-For design the navbar used a minimal one lighter color style with white letters. The color chosen was the **primary colour** (see color section) with white lettering to make it easier for users to see.  For further ease in user experiance each page contains a class coded in **style.css** of:
-
-```html
-    class = "nav-active"
-```
-If the user is currently on the specific page the nav item is referring to. 
-
-Or
-
-```html
-    class = "nav-inactive"
-```
-If the user is not on the page specified by the nav item.
+For design the navbar used a minimal one lighter color style with white letters. The color chosen was the **primary colour** (see color section) with white lettering to make it easier for users to see.  For further ease in user experiance each page contains a class coded in **style.css** of active If the user is currently on the specific page the nav item is referring to. Or inactive if the user is not on the page specified by the nav item.
 
 These are for easy identification of the page the user is currently on.
 
@@ -49,27 +37,10 @@ These are for easy identification of the page the user is currently on.
 
 Colours chosen for the website where for minimal style reasons only and not the main focus of the site design.  However some colour was necessary to avoid the website looking bland for users.  
 
-Originally the colors picked was a green primary colour with a darker green secondary colour. Colours where in hex:
-
-```css
-Green{
-    /*Primary Colour*/
-    color: #2f9442;
-    /*Secondary Colour*/
-    color: #31703d;
-}
-```
+Originally the colors picked was a green primary colour with a darker green secondary colour. Colours where in hex.
 
 While the green certainly matched some of the images used it was not a primary colour found throughout the site.  Because of this a brighter orange colour was chosen.  
 
-```css
-Orange{
-    /*Primary Colour*/
-    color: #ff7626;
-    /*Secondary Colour*/
-    color: #ba7852;
-}
-```
 The orange was alot more fitting throughout as it matched the tones of the images on the sight.  
 
 ### Webpages
@@ -102,38 +73,6 @@ The treks contain 3 locations each which can be viewed upon clicking on a coresp
 
 Each button corresponds to a unique function in the **scrips/app.js** file.  The functions: 
 
-```Javascript
-function castle_Loc_Page()
-{
-    if(castle.style.display === "none")
-    {
-        if(forest.style.display === "block")
-        {
-            forest.style.display = "none";
-            forestButton.classList.remove('active-trek');
-            forestButton.classList.add('inactive-trek');
-        }
-        if(river.style.display === "block")
-        {
-            river.style.display = "none";
-            riverButton.classList.remove('active-trek');
-            riverButton.classList.add('inactive-trek');
-        }
-        
-        castle.style.display = "block";
-        space.style.display = "none";
-        castleButton.classList.remove('inactive-trek');
-        castleButton.classList.add('active-trek');
-    }
-    else
-    {
-        castle.style.display = "none";
-        space.style.display = "block";
-        castleButton.classList.remove('active-trek');
-        castleButton.classList.add('inactive-trek');
-    }
-}
-```
 While each function contains a different name and flow statments based on the button clicked the general code is similar.  
 
 Each trek information displayed also comes with a book button like in index.html testimonials section which also links to the **Book page**.  
@@ -145,27 +84,6 @@ The booking page is the shortest page and focuses around the form section.
 
 The page has 3 buttons which when hovered over will grow and becomes lighter similar to the trek buttons in the index.html.  The buttons when clicked run a javascript function in **app.js**.  Again the functions contain different names but still function similarly:
 
-```Javascript
-function bookCastle()
-{
-    if(bk_castle.style.display === "none")
-    {
-        if(bk_forest.style.display === "inline-block")
-        {
-            bk_forest.style.display = "none";
-        }
-        if(bk_river.style.display === "inline-block")
-        {
-            bk_river.style.display = "none";
-        }
-        bk_castle.style.display = "inline-block";
-    }
-    else
-    {
-        bk_castle.style.display = "none";
-    }
-}
-```
 
 When clicked on the text next to 'Booking for:' will change to the corresponding trek title.  
 
@@ -215,7 +133,13 @@ This section is a list of all the technologies used in the building of the websi
 
 ## Testing
 
-///Enter testing report///
+Testing for desktop was done on 4 browsers:
+* Google Chrome 
+* Firefox
+* Microsoft Edge
+* Safari
+
+All browser displayed the site with no errors.
 
 The site has been tested on multiple different devices to ensure its usability on any screen.  The sight has been tested on: 
 
@@ -230,6 +154,12 @@ On all devices the website responds well and shows all information needed withou
 ## Deployment 
 
 The site was deployed using GitHub pages.
+
+Steps to deploy:
+* Move html documents to main directory
+* On the Github repository page
+* In settings/ Github pages
+* set source to master
 
 For deployment the HTML documents and the assets folder have been placed in the main folder.  This allowed GitHub pages to find the index.html document and run the website.  
 
