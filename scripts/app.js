@@ -170,19 +170,3 @@ function bookRiver()
     }
 }
 
-
-function treksPage_castle()
-{
-    document.location = "Treks.html";
-    
-    document.getElementById("Castle-Locations").style.display = "block-inline";
-    
-}
-
-//Check if the booking forms have values
-
-var firstName = document.getElementById("fname").value;
-var lastName = document.getElementById("lname").value;
-var email = document.getElementById("email").value;
-var date = document.getElementById("date").value;
-
